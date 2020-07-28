@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Registration Form</title>
+</head>
+<body>
+  <form method="post" action="submit.php">  <!-- In action mention your php file -->
+    <br> Name: <input type="text" name="txtName">
+    <br> Address: <textarea name="address" rows=3 col=10></textarea>
+    <br> Gender: Male<input type="radio" name="rdoGen" value="Male">
+     Female<input type="radio" name="rdoGen" value="Female">
+     Other <input type="radio" name="rdoGen" value="Other">
+    <br> Programming Languages:
+    C <input type="checkbox" name="chkProg[]" value="C">
+    CPP <input type="checkbox" name="chkProg[]" value="CPP">
+    Java <input type="checkbox" name="chkProg[]" value="Java">
+    Python <input type="checkbox" name="chkProg[]" value="Python">
+    R <input type="checkbox" name="chkProg[]" value="R">
+    Dart <input type="checkbox" name="chkProg[]" value="Dart">
+
+    <br> Languages:
+    <select name="drpLan[]" multiple="multiple">
+      <option value="English">English</option>
+      <option value="Marathi">Marathi</option>
+      <option value="Ahirani">Ahirani</option>
+      <option value="Hindi">Hindi</option>
+      <option value="Spanish">Spanish</option>
+      <option value="Gujarati">Gujarati</option>
+    </select>
+    <br><input type="Submit">
+  </form>
+</body>
+</html>
