@@ -9,6 +9,6 @@ public class Prt{
     float r = Float.parseFloat(ar[1]);		//converting r(rate of interest) into float
     int t = Integer.parseInt(ar[2]);		//converting t(time) into integer
     si = si + (p*r*t)/100;			//simple interest formula
-    System.out.println("Simple Interest is "+si);
+    System.out.println("Simple Interest is "+si); 
   }
 }
