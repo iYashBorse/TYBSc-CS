@@ -18,7 +18,7 @@ public class PerfectNo{
             sum += i;			//adds number(i) to sum if number(j) is divisible by it
           }
         }
-        if(sum==j){			//if addition of factors is equal to the original number
+        if(sum==j){			//if addition of factors is equal to the original number 
           System.out.println(j+" is a perfect no.");
         }
       }
