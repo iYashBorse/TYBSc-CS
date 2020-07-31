@@ -22,8 +22,9 @@
     echo "<br><br>$temp is a Symbol.";
   }
  ?>
- <!-- ord function returns the ASCII value of the argument.
-      If you're wondering where that numbers came from in the
-      'if' condition refer to www.asciichars.com -->
+ <!-- ord function returns the ASCII value of the first character in the argument ( string ) , 
+      eg : ord("ABCD") , ASCII value returns 65 ( i.e A ) , only A .  // ord stands for ORIDINAL ( related to : oridinal number ).
+      If you're wondering where that numbers came from in  the
+       'if' condition ,  refer to www.asciichars.com -->
 </body>
 </html>
