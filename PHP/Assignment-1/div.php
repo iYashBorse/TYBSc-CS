@@ -19,7 +19,16 @@
   echo "$num is not divisible by 5.";
 }
 /* As far as I know, you cannot directly accept value explicitly in PHP,
-  therefore, we use forms. */
+  therefore, we use forms. 
+  There are few functions to read input from the users  depending on the Program Need. 
+  One of them is readline()  
+  eg :  $a = readline("Enter your name:") 
+        echo" Hey , " , $a;
+        
+       ouput : Enter your name: Yash 
+               Hey , Yash
+ */
+  
 ?>
 </body>
 </html>
