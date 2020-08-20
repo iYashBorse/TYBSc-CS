@@ -169,7 +169,7 @@
 
 body{
 	background-color: white;
-	font-family: American Typewriter ,serif;
+	font-family: American Typewriter;
 ;
 
 }
@@ -179,6 +179,7 @@ body{
 h1 {
 	color: black;
 	text-align: center;
+	font-family: serif;
 }
 
 
@@ -453,6 +454,98 @@ textarea{
 
 
 /*   Check Box Ends   */
+
+
+
+
+
+
+.divClass {
+	width: 70%;
+	height: 70%;
+    margin: 0 auto;
+
+        /* CSS margin property with the value auto for the left and right side, 
+           i.e. set the style rule margin: 0 auto; for the div element. 
+           The auto value automatically adjusts the left and right margin and horizontally center align the div element's block box.
+        */
+	  border-radius: 5px;
+	  background-color: white;
+	  padding: 20px;
+}
+.numberTextField2{
+  width: 19.5%;
+  padding: 8px 15px;
+  margin: 8px 0;
+  display: inline-block;
+  border-radius: 5px;
+  box-sizing: border-box;
+  border: 2px solid lightblue;
+
+}
+
+
+.numberTextField3{
+  width: 19.5%;
+  height: 6%;
+  padding: 9px 15px;
+  margin: 8px 0;
+  display: inline-block;
+  border-radius: 5px;
+  box-sizing: border-box;
+  border: 2px solid lightblue;
+
+}
+
+
+#submit1 { 
+  width: 30%;
+  background-color: #7B68EE;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+
+
+#submit1:hover {
+  background-color: #483D8B;
+}
+
+
+
+
+
+/*    For  Table Styling    */ 
+
+
+
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 50%;
+  border: 1px solid #ddd;
+}
+
+th, td {
+  text-align: left;
+  padding: 16px;
+}
+
+tr:nth-child(even) {
+  background-color: #AE8FCD;
+}
+
+
+
+
+
+
+
 
 
 
