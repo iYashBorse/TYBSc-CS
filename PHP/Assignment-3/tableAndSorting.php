@@ -103,7 +103,7 @@ echo"
  } // end of for loop 
 
 
- echo "</table></center>";   // closing the  second table's tag. 
+ echo "</table></center>";   // closing the  second table  tag. 
 
 
 
@@ -137,7 +137,7 @@ echo"<br><br><center> Reverse of Sorted table :</center><br>";
  } // end of for loop 
 
 
- echo "</table></center>";   // closing the  Third table's tag. 
+ echo "</table></center>";   // closing the  Third table  tag. 
 
 
 
