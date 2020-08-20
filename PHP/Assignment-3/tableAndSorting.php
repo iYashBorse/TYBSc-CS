@@ -94,8 +94,8 @@ echo"
 
  for($i = 0 ; $i < $n ; $i++){
  echo" <tr id =\"tr2\">
- 				<td> $studentName[$i] </td> 
- 				<td> $rollNumber[$i] </td> 
+		<td> $studentName[$i] </td> 
+		<td> $rollNumber[$i] </td> 
 
 
  	   </tr>";
@@ -117,29 +117,27 @@ echo"<br><br><center> Reverse of Sorted table :</center><br>";
  echo"<center>
 
  <table> 
- <trid =\"tr3\">
- <th>Student Name</th>
- <th>Student Roll</th>
+ <tr id =\"tr3\">
+	 <th>Student Name</th>
+	 <th>Student Roll</th>
+
  </tr> ";
 
 
   for($i=$n-1;$i>=0;$i--){
- echo" <tr id =\"tr3\">
- 				<td> $studentName[$i] </td> 
- 				<td> $rollNumber[$i] </td> 
+	  
+     echo" <tr id =\"tr3\">
+ 
+		<td> $studentName[$i] </td> 
+		<td> $rollNumber[$i] </td> 
 
 
- 	   </tr>";
+          </tr>";
  
  } // end of for loop 
 
 
- echo "</table></center>";   // closing the  second table's tag. 
-
-
-
-
-
+ echo "</table></center>";   // closing the  Third table's tag. 
 
 
 
