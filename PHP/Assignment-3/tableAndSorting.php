@@ -30,7 +30,7 @@ $n=count($studentName); // calculating the number of  values in the array for fu
 // To Use  HTML tags in PHP  you can use multiple ways one is inside echo 
 // One is separating each php code & html code , eg :    <tr>   <?php  echo $value; ? >    </tr>
 
-echo"<br><br><center>Before Sorting :</center><br>"; // center tag  to align the following line in center of the page.
+echo"<br><br><center>Representation  in tabular form :</center><br>"; // center tag  to align the following line in center of the page.
 
 
 // representing data in tabular form
@@ -39,7 +39,7 @@ echo"
 
 <center>
  <table>  
- <tr>
+ <tr id =\"tr1\">
  <th>Student Name :</th>
  <th>Student Roll :</th>
  </tr> " ;
@@ -48,7 +48,7 @@ echo"
  for($i = 0 ; $i < $n ; $i++){
 
    echo"
-   			<tr>
+   			<tr id =\"tr1\">
    			<td> $studentName[$i] </td>
    			<td>$rollNumber[$i]</td>
    			</tr>";
@@ -60,7 +60,7 @@ echo"
 
 // Sorted table 
 
- echo "<center><br><br>After Sorting by Roll No :<br></center><br>";
+ echo "<center><br> Sorting by Roll No :<br></center><br>";
  
  // You could have used sort() function with one line of code but sir' told without built InFunction so    ( sorry !)
  
@@ -87,13 +87,13 @@ echo"
  echo"<center>
 
  <table> 
- <tr>
+ <tr id =\"tr2\">
  <th>Student Name</th>
  <th>Student Roll</th>
  </tr> ";
 
  for($i = 0 ; $i < $n ; $i++){
- echo" <tr>
+ echo" <tr id =\"tr2\">
  				<td> $studentName[$i] </td> 
  				<td> $rollNumber[$i] </td> 
 
@@ -104,6 +104,45 @@ echo"
 
 
  echo "</table></center>";   // closing the  second table's tag. 
+
+
+
+
+
+// Reversing the  Sorted table 
+
+
+echo"<br><br><center> Reverse of Sorted table :</center><br>";
+
+ echo"<center>
+
+ <table> 
+ <trid =\"tr3\">
+ <th>Student Name</th>
+ <th>Student Roll</th>
+ </tr> ";
+
+
+  for($i=$n-1;$i>=0;$i--){
+ echo" <tr id =\"tr3\">
+ 				<td> $studentName[$i] </td> 
+ 				<td> $rollNumber[$i] </td> 
+
+
+ 	   </tr>";
+ 
+ } // end of for loop 
+
+
+ echo "</table></center>";   // closing the  second table's tag. 
+
+
+
+
+
+
+
+
 
 
 ?> 

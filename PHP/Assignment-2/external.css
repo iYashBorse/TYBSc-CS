@@ -537,10 +537,20 @@ th, td {
 }
 
 tr:nth-child(even) {
-  background-color: #AE8FCD;
+  background-color: #A9CCE3;
 }
 
+#tr1:nth-child(even) {
+  background-color: #D1F2EB;
+}
 
+#tr2:nth-child(even) {
+  background-color: #D4E6F1;
+}
+
+#tr3:nth-child(even) {
+  background-color: #E8DAEF;
+}
 
 
 
