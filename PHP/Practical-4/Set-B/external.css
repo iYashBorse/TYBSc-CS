@@ -1,0 +1,592 @@
+/*  	This is a external CSS file , most of  the information  in  this  document  is  specifically referred from  w3school.com &  javapoint.com   */
+
+
+
+/*
+	Single  line & multi-line comments are  both done with  the same  syntax  as done here . 
+
+	For any query / help , please contact us Rutwik.U.Shete , Yash.J.Borse  ( you know where you can  reach us .)
+
+*/
+
+
+/* 
+	Some basic  information you should know ,  before  going forward to actual implemented CSS-Code . 
+	This is a sole file used  for all the CSS purpose in php-html directory in TYBSC repository .
+
+			CSS Element Selector ~ The  element selector selects the HTML element by name.
+
+									eg . external.css
+										   p{  
+											    text-align: center;  
+											    color: blue;  
+											} 
+
+										  example.html 
+
+											<head>  
+											<link rel="stylesheet" type="text/css" href="external.css">  
+											</head>
+											<body>  
+											<p>This style will be applied on every "paragraph" i.e  P tags.</p>  
+											<p id="para1">Me too!</p>  
+											<p>And me!</p>  
+											</body> 
+
+											
+														
+		
+
+			CSS Id Selector ~       The id selector selects the id attribute of an HTML element to select a specific element. 
+							        An id is always unique within the page so it is chosen to select a single, unique element.  
+							        It is written with the hash character (#).
+
+							        eg. external.css
+
+							   				#para1{                   # This will get applied only to <p> tag which has id ="para1" 
+											    text-align: center;  
+											    color: blue;  
+											} 
+
+										example.html 
+
+											<head>  
+											<link rel="stylesheet" type="text/css" href="external.css">  
+											</head>
+
+											<body>  
+
+											<p>This style will be applied on every "paragraph" i.e  P tags.</p>  
+											<p id="para1">Me too!</p>  
+											<p>And me!</p>  
+
+											</body> 
+
+
+
+			CSS Class Selector ~    The class selector selects HTML elements with a specific class attribute. 
+									It is used with a period character i.e  (full stop symbol) followed by the class name.
+
+									eg. external.css
+
+											.center {  
+													    text-align: center;  
+													    color: blue;  
+													}
+
+										example.html
+
+
+
+											<head>  
+											<link rel="stylesheet" type="text/css" href="external.css">  
+											</head>
+
+											<body>  
+
+											<h1 class="center">This heading is blue and center-aligned.</h1>  
+											<p class="center">This paragraph is blue and center-aligned.</p> 
+
+											</body> 
+
+
+											# Now you might have a question , what's the  difference between  using ID  and Class 
+											  The difference between an ID and a class is that an ID can be used to identify one
+											  element, whereas a class can be used to identify more than one.
+
+											# And one more advantage with using class is  that , you can also  use the class selector 
+											  for a specific element  for  eg. 
+
+											  			  						p.center {  
+																						    text-align: center;  
+																						    color: blue;  
+																						 }
+
+										    # using p.center will only  apply changes  to class="center"  which is used in a <p> tag.See the above code.
+
+			
+
+
+
+
+
+			CSS Universal Selector ~ The universal selector is used as a wildcard character. It selects all the elements on the page.
+									 Sounds swell but what does that mean ?.
+
+									 Let's see a example.
+
+									 eg . external.css
+
+									 			* {  
+													   color: green;  
+													   font-size: 20px;  
+												  } 
+
+
+										 example.html
+
+
+										 	<head>  
+											<link rel="stylesheet" type="text/css" href="external.css">  
+											</head>
+											<body>  
+
+											<p>This style will be applied on every "paragraph" i.e  P tags.</p>  
+											<p id="para1">Me too!</p>  
+											<p>And me!</p>  
+											<h2>This is heading</h2> 
+											</body> 
+
+
+									# So this " * " indicates all , so  all the  <p> tags <h2> tag or any other tag present with text facility
+									# will change its color to green and font-size to 20px . 
+
+									! Use  this tag when your pants are on fire.
+
+
+
+						
+
+			CSS Group Selector  ~ You should understand this one , after all  those ones. 
+
+									h1,h2,p {  
+											    text-align: center;  
+											    color: blue;  
+											}   
+
+
+!! While using  the CSS file in your code make sure you're  in same directory as the html or your php file so that you can use just the name  
+   ( href= "external.css" ).and you don't have to mention the actual path . BUT ...if you're CSS file is not in the same directory then , 
+   you have to mention  the  actual path of your CSS file for eg .  href= "/Documents/Photos/Files/external.css/ "
+
+*/
+
+
+/*   
+	To add external CSS file in .PHP extension files  use ~ echo '<link href="external.css" rel="stylesheet" type="text/css" />';   
+*/
+
+
+body{
+	background-color: white;
+	font-family: American Typewriter;
+;
+
+}
+
+
+
+h1 {
+	color: black;
+	text-align: center;
+	font-family: serif;
+}
+
+
+h6 {
+	color: black;
+	text-align: center;
+}
+
+
+
+
+
+input[type=submit] { 
+  width: 100%;
+  background-color: #7B68EE;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+
+
+input[type=submit]:hover {
+  background-color: #483D8B;
+}
+
+
+
+div {
+	width: 30%;
+    margin: 0 auto;
+
+        /* CSS margin property with the value auto for the left and right side, 
+           i.e. set the style rule margin: 0 auto; for the div element. 
+           The auto value automatically adjusts the left and right margin and horizontally center align the div element's block box.
+        */
+	  border-radius: 5px;
+	  background-color: gainsboro;
+	  padding: 20px;
+}
+
+
+
+#div1 {
+  width: 50%;
+    margin: 0 auto;
+
+        /* CSS margin property with the value auto for the left and right side, 
+           i.e. set the style rule margin: 0 auto; for the div element. 
+           The auto value automatically adjusts the left and right margin and horizontally center align the div element's block box.
+        */
+    border-radius: 5px;
+    background-color: pink;
+    padding: 20px;
+}
+
+#div2 {
+  width: 30%;
+    margin: 0 auto;
+
+        /* CSS margin property with the value auto for the left and right side, 
+           i.e. set the style rule margin: 0 auto; for the div element. 
+           The auto value automatically adjusts the left and right margin and horizontally center align the div element's block box.
+        */
+    border-radius: 5px;
+    background-color: #EC7063;
+    padding: 20px;
+}
+
+
+
+
+.php{	color:black;
+		background-color: silver;
+}
+
+
+
+
+
+.numberTextField{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border-radius: 4px;
+  box-sizing: border-box;
+  border: 2px solid lightblue;
+
+}
+
+
+
+
+.textField{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border-radius: 4px;
+  box-sizing: border-box;
+  border: 2px solid lightblue;
+
+}
+
+button {
+  background-color: #7B68EE	;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+   opacity:1;
+
+
+}
+
+.button2 {
+	background-color: #DC143C	;
+}
+
+
+
+
+
+textarea{
+	resize: none;
+	height: 80px;
+    width: 350px;
+}
+
+
+
+
+
+/* Radio Button Starts */
+
+
+
+
+
+
+/* The container for radio Button */
+.container {
+  display: block;
+  float: right;
+  position: relative;
+  padding-left: 30px;
+  padding-right: 40px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  font-size: 15px;
+  
+}
+
+/* Hide the browser's default radio button */
+.container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+/* Create a custom radio button */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 18px;
+  width: 18px;
+  background-color: #eee;
+  border-radius: 50%;
+}
+
+/* On mouse-over, add a grey background color */
+.container:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+/* When the radio button is checked, add a blue background */
+.container input:checked ~ .checkmark {
+  background-color: #7B68EE	;
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the indicator (dot/circle) when checked */
+.container input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the indicator (dot/circle) */
+.container .checkmark:after {
+ 	top:5px;
+	left: 5px;
+	width: 8px;
+	height: 8px;
+	border-radius: 50%;
+	background: white;
+}
+
+
+/* Radio Buttons Ends */
+
+
+
+/* Check Box Starts */
+
+
+
+
+
+
+
+
+
+
+/* The container */
+.container2 {
+  display: block;
+  float: right;
+  position: relative;
+  padding-left: 22px;
+  padding-right: 27px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 13
+
+  px;
+ 
+}
+
+/* Hide the browser's default checkbox */
+.container2 input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* Create a custom checkbox */
+.checkmark2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 20px;
+  width: 20px;
+  background-color: white;
+}
+
+/* On mouse-over, add a grey background color */
+.container2 :hover input ~ .checkmark2 {
+  background-color: #ccc;
+}
+
+/* When the checkbox is checked, add a blue background */
+.container2 input:checked ~ .checkmark2 {
+  background-color: #7B68EE;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark2:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.container2 input:checked ~ .checkmark2:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.container2 .checkmark2:after {
+  left: 6px;
+  top: 3px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0; 
+  /* These three lines of  code is for the " L " or so called correct 
+	 sign in our checkbox , here we are rotating it to a  angle so it looks like 
+	 a correct sign and not L  (  CSS if not as easy as it looks like. )    */
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+
+
+
+
+
+/*   Check Box Ends   */
+
+
+
+
+
+
+.divClass {
+	width: 70%;
+	height: 70%;
+    margin: 0 auto;
+
+        /* CSS margin property with the value auto for the left and right side, 
+           i.e. set the style rule margin: 0 auto; for the div element. 
+           The auto value automatically adjusts the left and right margin and horizontally center align the div element's block box.
+        */
+	  border-radius: 5px;
+	  background-color: white;
+	  padding: 20px;
+}
+.numberTextField2{
+  width: 19.5%;
+  padding: 8px 15px;
+  margin: 8px 0;
+  display: inline-block;
+  border-radius: 5px;
+  box-sizing: border-box;
+  border: 2px solid lightblue;
+
+}
+
+
+.numberTextField3{
+  width: 19.5%;
+  height: 6%;
+  padding: 9px 15px;
+  margin: 8px 0;
+  display: inline-block;
+  border-radius: 5px;
+  box-sizing: border-box;
+  border: 2px solid lightblue;
+
+}
+
+
+#submit1 { 
+  width: 30%;
+  background-color: #7B68EE;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+
+
+#submit1:hover {
+  background-color: #483D8B;
+}
+
+
+
+
+
+/*    For  Table Styling    */ 
+
+
+
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 50%;
+  border: 1px solid #ddd;
+}
+
+th, td {
+  text-align: left;
+  padding: 16px;
+}
+
+tr:nth-child(even) {
+  background-color: #A9CCE3;
+}
+
+#tr1:nth-child(even) {
+  background-color: #D1F2EB;
+}
+
+#tr2:nth-child(even) {
+  background-color: #D4E6F1;
+}
+
+#tr3:nth-child(even) {
+  background-color: #E8DAEF;
+}
+
+
+
+
+
+
+
+
+
+
