@@ -21,21 +21,21 @@
 
 	error_reporting (E_ALL ^ E_NOTICE); // to understand this line of code , check firstNumberCheck.php or remove this line and check.
 
-	echo"<div class=\" div php\">";  // just for styling purpose ( ignore )
 
 
+        echo"<div class=\" div php\">";  // just for styling purpose ( ignore )
 
+$number = $_POST["txtNumber"];  
 
-if($_POST)
+if($number != NULL) // just to avoid some default value printing while loading the page.
 {
 
 
-		$number = $_POST["txtNumber"];  
 
 		$factorial = 1; // 1   not  0  or you know.
 
 
-		for ($i=$number; $i>=1; $i--) // finally a simple for loop.
+		for ($i=$number; $i>=1; $i--)
 		{
 		    $factorial = $factorial * $i;
 		}
