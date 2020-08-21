@@ -8,7 +8,7 @@ echo"	<link rel=\"stylesheet\" type=\"text/css\" href=\"external.css\"> "; // As
 																			 // And to separate extra  " " quotation  marks using the "backward slash"
 
 // Retrieving all the values from html form & assigning  them to  php Variables
-// You can directly use "$_POST["firstName"]"  any where instead of assigning  to a VAR but  it would  very difficult and messy to re-use.
+// You can directly use "$_POST["firstName"]"  any where instead of assigning  to a VAR but  it would  be very difficult and messy to re-use.
 
  $first = $_POST["firstName"];
  $second =$_POST["secondName"];
@@ -17,7 +17,8 @@ echo"	<link rel=\"stylesheet\" type=\"text/css\" href=\"external.css\"> "; // As
  $roll2 = $_POST["rollNumber2"];
  $roll3 = $_POST["rollNumber3"];
 
-// As there are multiple values  so storing these values in the arrays for displaying & sorting  purpose , again you could use directly the $_POST  inside the array but this is more convenient so.
+// As there are multiple values  so storing these values in the arrays for displaying & sorting  purpose ,
+// again you could use directly the $_POST  inside the array but this is more convenient so.
 
 
 
@@ -29,11 +30,14 @@ $n=count($studentName); // calculating the number of  values in the array for fu
 
 // To Use  HTML tags in PHP  you can use multiple ways one is inside echo 
 // One is separating each php code & html code , eg :    <tr>   <?php  echo $value; ? >    </tr>
+// we are using inside echo" ";
 
 echo"<br><br><center>Representation  in tabular form :</center><br>"; // center tag  to align the following line in center of the page.
 
 
-// representing data in tabular form
+
+
+// 1 :    representing data in tabular form
 
 echo"
 
@@ -58,11 +62,18 @@ echo"
  echo "</table></center><br><br>"; // closing the first unsorted table and center tag .
 
 
-// Sorted table 
+
+
+// 2   :   In Sorted Form .
+
+
+
+
+
 
  echo "<center><br> Sorting by Roll No :<br></center><br>";
  
- // You could have used sort() function with one line of code but sir' told without built InFunction so    ( sorry !)
+ // You can use the inBuilt sort() function with one line of code but sir' told without In built Function so    ( sorry !)
  
  for($i=0; $i<$n-1; $i++){//first element ( i.e roll Number ) in the array & n-1 because count() func counts from 1 and  we are looking in array so.
 
@@ -109,7 +120,12 @@ echo"
 
 
 
-// Reversing the  Sorted table 
+
+
+
+// 3 :  Reversing the  Sorted table 
+
+
 
 
 echo"<br><br><center> Reverse of Sorted table :</center><br>";
