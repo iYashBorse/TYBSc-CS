@@ -5,7 +5,7 @@
 /*
 	Single  line & multi-line comments are  both done with  the same  syntax  as done here . 
 
-	For any query / help , please contact us Rutwik.U.Shete , Yash.J.Borse  ( you know where you can  reach us .)
+	For any query / help , please contact us at helpgithub@gmail.com ( we'll be happy  to help you)
 
 */
 
@@ -223,35 +223,6 @@ div {
 	  background-color: gainsboro;
 	  padding: 20px;
 }
-
-
-
-#div1 {
-  width: 50%;
-    margin: 0 auto;
-
-        /* CSS margin property with the value auto for the left and right side, 
-           i.e. set the style rule margin: 0 auto; for the div element. 
-           The auto value automatically adjusts the left and right margin and horizontally center align the div element's block box.
-        */
-    border-radius: 5px;
-    background-color: pink;
-    padding: 20px;
-}
-
-#div2 {
-  width: 30%;
-    margin: 0 auto;
-
-        /* CSS margin property with the value auto for the left and right side, 
-           i.e. set the style rule margin: 0 auto; for the div element. 
-           The auto value automatically adjusts the left and right margin and horizontally center align the div element's block box.
-        */
-    border-radius: 5px;
-    background-color: #EC7063;
-    padding: 20px;
-}
-
 
 
 
