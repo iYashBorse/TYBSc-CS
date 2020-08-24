@@ -1,10 +1,10 @@
-import java.sql.Date;
-import java.util.Calendar;
+import java.sql.Date;				//importing Date class
+import java.util.Calendar;			//importing Calendar class
 
 public class DateGreeting {
     public static void main(String[] args){
-        Calendar today = Calendar.getInstance();
-        System.out.println(today.get(Calendar.DATE) + " / " + today.get(Calendar.MONTH) + " / " + today.get(Calendar.YEAR));
+        Calendar today = Calendar.getInstance();	//Calendar object created
+        System.out.println(today.get(Calendar.DATE) + " / " + today.get(Calendar.MONTH) + " / " + today.get(Calendar.YEAR));		//Displays today's date
         if(today.get(Calendar.HOUR_OF_DAY) <= 12)
             System.out.println("Good Morning");
         else if(today.get(Calendar.HOUR_OF_DAY) <= 16)
@@ -13,5 +13,10 @@ public class DateGreeting {
             System.out.println("Good Evening");
         else
             System.out.println("Good Night");
+	
+	/* CodeLens- In line 8 to 15, we fetch hour using get method of Calendar class, HOUR_OF_DAY is
+		     is used instead of HOUR because we require it in 24 hour format. Then we simply 
+		     check conditions and greet accordingly.
+	*/
     }
 }
