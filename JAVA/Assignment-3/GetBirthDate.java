@@ -23,6 +23,8 @@ public class GetBirthDate {
         int months;
         int days;
 
+        int daysInCurrentMonth = today.getActualMaximum(Calendar.DAY_OF_MONTH);
+
         years = todayYear - birthYear;
 
 /* CodeLens - In this nested if block we check every condition for calculating age perfectly.
@@ -48,16 +50,18 @@ already that many months old.
         else{
             years--;
             months = 12 - (birthMonth - todayMonth);
-            if(todayDay >= birthDay){
+            if(todayDay > birthDay){
                 days = todayDay - birthDay;
             }
             else{
-                months++;
-                days = birthDay - todayDay ;
+                months--;
+                days = (daysInCurrentMonth - birthDay) + todayDay;
             }
         }
 
         System.out.println(years + " Years " + months + " Months " + days + " days ");
+
+        input.close();
         
     }
 }
