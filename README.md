@@ -6,7 +6,7 @@ The programs are written ,  while keeping a  sole IDEA in mind ( easy to underst
 
 For any query / help / Bug-Fix related to any program/'s in this Repository .   Please don't hesitate to Ask. 
 
-To Reach us  [  Mail ID ] ~  <b> helpgithub@gmail.com </b>
+To Reach us  [  Mail ID ] ~  <b> githubhelp@yahoo.com  /  helpgithub@gmail.com </b>
 
 <i> We'll be happy to help you .</i>
 
