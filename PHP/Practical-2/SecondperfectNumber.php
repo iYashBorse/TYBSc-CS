@@ -29,13 +29,14 @@
 echo "<div class=\" div php \">";
 
 
+$number = $_POST["txtNumber"]; 
 
-if($_POST)
+if($number != NULL) // This will check  that we only go to the logic & printing part when we retrieve a actual value from our html form 
+		    // Else don't show anything , try removing it ,  to understand it more concisely.
 
 {
 //get the post value from form
 
-	$number = $_POST["txtNumber"]; // You can place  this line outisde of  "if" statement ( it will work ) 
 	$i = 1;
 	$sum=0;
 	while ($i < $number) {
@@ -49,7 +50,7 @@ if($_POST)
 	}
 
 
-	if($number == $sum){
+	if($number == $sum){ 
 	printf("The number %d  is a perfect Number.", $number);
 	}
 
