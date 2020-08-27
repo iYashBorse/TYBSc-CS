@@ -43,14 +43,14 @@ already that many months old.
                 days = todayDay - birthDay;
             }
             else{
-                months++;
-                days = birthDay - todayDay ;
+                months--;
+                days = (daysInCurrentMonth - birthDay) + todayDay;
             }
         }
         else{
             years--;
             months = 12 - (birthMonth - todayMonth);
-            if(todayDay > birthDay){
+            if(todayDay >= birthDay){
                 days = todayDay - birthDay;
             }
             else{
