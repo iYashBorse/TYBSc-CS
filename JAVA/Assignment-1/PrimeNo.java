@@ -8,7 +8,7 @@ public class PrimeNo{
     for(int i=0;i<num.length;i++){		//iterating through number of arguments
       flag = false;   				//reset flag for every value
       int n = Integer.parseInt(num[i]);		//Converting the argument(although number but a str type) into integer
-      for(int j=2;j<n/2;j++){			//will divide number from 2 to half of its value
+      for(int j=2;j<=n/2;j++){			//will divide number from 2 to half of its value
         if(n%j==0){				
           flag = true;				//if number is divisible by any other number flag sets true	
           break;
