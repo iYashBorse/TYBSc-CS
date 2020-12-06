@@ -6,6 +6,6 @@ The programs are written ,  while keeping a  sole <b>IDEA</b> in mind ( easy to 
 
 For any Error Query / Program Query / help / Bug-Fix related to any program/'s  any doubt at all related to  this Repository. Contact us : 
 
-To Reach us  <small>[  Mail ID ] </small>~  <b> githubhelp@yahoo.com  /  helpgithub@gmail.com </b>
+To Reach us  <small>[  Mail ID ] </small>~  <b> githubhelp@yahoo.com </b>
 
 <i> We'll be really  happy to help you.</i>
