@@ -7,12 +7,6 @@ Java does not support multiple inheritance :
 
 https://javapapers.com/core-java/why-multiple-inheritance-is-not-supported-in-java/
 
-One of the Brief Paragraph : 
-
-This story of supporting multiple inheritance using interface is what we developers cooked up. Interface gives flexibility than  concrete classes and we have option to implement multiple interface using single class. This is by agreement we are adhering to two blueprints to create a class.
-
-
-
 
 
 Dynamic class loading : 
