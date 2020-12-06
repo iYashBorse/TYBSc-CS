@@ -16,7 +16,8 @@ Really easy to understand do have a look.
 https://stackoverflow.com/questions/19519787/when-do-we-use-static-and-dynamic-class-loading
 
 
-Static Class Loading: Creating objects and instance using new keyword is known as static class loading. The retrieval of class definition and instantiation of the object is done at compile time. 
+Static Class Loading: Creating objects and instance using new keyword is known as static class loading. 
+The retrieval of class definition and instantiation of the object is done at compile time. 
 
 
 
