@@ -20,3 +20,8 @@ Static Class Loading: Creating objects and instance using new keyword is known a
 
 
 
+Creating Threads in java : 
+ 
+Contains all the methods and definition related to thread and multi-threading.
+
+https://www.javatpoint.com/creating-thread
