@@ -1,8 +1,6 @@
 <?php
   error_reporting(0);
-  //Create connection
   $conn = mysqli_connect("localhost", "root", "", "gasbookdb");
-  //Check connection
   if (!$conn){
     die("Connection failed: " . mysqli_connect_error());
   }
@@ -58,10 +56,10 @@
     $iQuery = "INSERT INTO customer_details (`Consno`, `Pass`, `Cylintype`, `DtofConn`, `Cname`, `Caddr`, `City`, `Phone`, `Pincode`) VALUES ('$Consno','$password','$typeOfCylin','$Dtofconn','$name','$address','$city','$phone','$pincode')";
 
     if(mysqli_query($conn,$iQuery)){
-        echo "successful";
+        echo "<center>successful </center>";
     }
     else{
-        echo "failed";
+        echo "<center>Processing.. </center>";
     }
 
 ?>

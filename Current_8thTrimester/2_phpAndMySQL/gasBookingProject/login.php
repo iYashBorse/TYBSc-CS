@@ -1,3 +1,10 @@
+<?php
+  session_start();
+  if(isset($_SESSION['Consno'])){
+  echo "CustomerNumber:".$_SESSION['Consno'];
+}
+?>
+
 <html>
 <head><title>Login page</title>
     <link rel="stylesheet" type="text/css" href="external.css">
@@ -31,8 +38,19 @@
   }
   else{
       echo "Login Failed";
+  } 
+
+  $cust_q = " SELECT `Consno` FROM `customer_details` WHERE `Cname` LIKE '$username' ";
+  $cust_no_obj = mysqli_query($conn,$cust_q);
+
+  if(mysqli_num_rows($cust_no_obj) > 0 ){
+    $cust_no_arr = mysqli_fetch_assoc($cust_no_obj);
+    $cust_no = $cust_no_arr['Consno'];
+    if(isset($_POST['submit']))
+      $_SESSION['Consno'] = $cust_no;
   }
 ?>
+
 </div>
 </body>
 </html>

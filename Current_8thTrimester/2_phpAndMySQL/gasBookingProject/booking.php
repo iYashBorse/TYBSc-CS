@@ -1,3 +1,9 @@
+<?php
+session_start();
+if(isset($_SESSION['Consno'])){
+echo "CustomerNumber: ".$_SESSION['Consno'];
+}
+ ?>
 <html>
     <head>    <link rel="stylesheet" type="text/css" href="external.css">
 </head>
@@ -75,13 +81,15 @@ if (mysqli_query($conn, $iQuery)) {
             </tr>
         </table>
 
-    </body>
-
-    </html>
+  
 <?php
 } 
     else
-        echo"Booking Failed";
-
-echo"</div>";
+        echo"<center>Processing...</center>";
 ?>
+<form method="POST" action="logout.php">
+<br><br><input type="submit" name="logout" value="Logout"><br>
+</form>
+</body>
+</html>
+
