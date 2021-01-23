@@ -1,0 +1,7 @@
+<Cricket_Team>
+  <Country name="India">
+    <Player_Name>Virat Kohli</Player_Name>
+    <Wickets> 4 </Wickets>
+    <Runs>12040 </Runs>
+  </Country>
+</Cricket_Team>

@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/css" href="course.css"?>
+<Course>
+<Computer_Science>
+<Stud_name>John</Stud_name>
+<Class>tybcs</Class>
+<Division>B</Division>
+<Percentage>80</Percentage>
+</Computer_Science>
+<Computer_Science1>
+<Stud_name>Jadhav</Stud_name>
+<Class>tybcs</Class>
+<Division>A</Division>
+<Percentage>60</Percentage>
+</Computer_Science1>
+<Computer_Science2>
+<Stud_name>Surya Don</Stud_name>
+<Class>tybcs</Class>
+<Division>B</Division>
+<Percentage>90</Percentage>
+</Computer_Science2>
+<Computer_Science3>
+<Stud_name>Feroz</Stud_name>
+<Class>tybcs</Class>
+<Division>A</Division>
+<Percentage>95</Percentage>
+</Computer_Science3>
+<Computer_Science4>
+<Stud_name>Wick</Stud_name>
+<Class>tybcs</Class>
+<Division>A</Division>
+<Percentage>70</Percentage>
+</Computer_Science4>
+</Course>

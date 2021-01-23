@@ -1,0 +1,27 @@
+<html>
+<script type="text/javascript">
+function display()
+{
+                     
+            ob = new XMLHttpRequest();
+           
+            var a = document.getElementById("a").value;
+            ob.open("GET","movieAJAX.php?a="+a);
+            ob.send();
+            ob.onreadystatechange = function()
+            {         
+if(ob.readyState == 4 && ob.status == 200)
+                        document.getElementById("i").innerHTML = ob.responseText;
+            }
+
+}
+</script>
+
+
+<body>
+
+Enter Actor Name :<input type=text name=a id=a><br>
+<input type=submit value="DISPLAY MOVIE NAME" onclick=display()><br>
+<span id=i></span>
+</body>
+</html>

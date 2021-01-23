@@ -1,0 +1,14 @@
+<?xml version='1.0'?>
+<Book_Store>
+
+<Book type="Educational">
+<Title> Programming in PHP </Title>
+<Publication>O’RELLY</Publication>
+</Book>
+
+<Book type="Self help">
+<Title> The archer</Title>
+<Publication> Penguin</Publication>
+</Book>
+
+</Book_Store>

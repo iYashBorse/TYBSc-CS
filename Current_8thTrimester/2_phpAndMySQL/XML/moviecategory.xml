@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding ='ISO-8859-1' ?>
+<CDStore>
+  <Movie>
+    <Category type="Classical">
+    <Title>Mughal-E-Azam</Title>
+    <Release_yr>1960</Release_yr>
+    </Category>
+<Category type="Action">
+    <Title>International Khiladi</Title>
+    <Release_yr>1999</Release_yr>
+</Category>
+<Category type="Horror">
+  <Title>Krihsna Cottage</Title>
+  <Release_yr>2004</Release_yr>
+</Category>
+</Movie>
+</CDStore>

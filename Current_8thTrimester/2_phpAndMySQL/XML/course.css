@@ -1,0 +1,28 @@
+Stud_name
+{
+                color:blue;
+                font-family: Bodoni MT;
+                font-size: 16pt;
+                font-style: italic;
+}
+Class
+{
+                color:green;
+                font-family:arial;
+                font-size: 12pt;
+
+}
+Division
+{
+                color:pink;
+                font-family:Jokerman;
+                font-size: 18pt;
+
+}
+Percentage
+{
+                color:red;
+                font-family: impact;
+                font-size: 14pt;
+                font-style: oblique;
+}
