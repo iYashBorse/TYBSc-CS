@@ -1,0 +1,27 @@
+<html>
+  <head><link rel="stylesheet" type="text/css" href="external.css">
+    
+    <script type="text/javascript">
+      function print() {
+        var ob = new XMLHttpRequest();
+
+        ob.open("GET", "lawyer.php?");
+        ob.send();
+
+        ob.onreadystatechange = function () {
+          if (ob.readyState == 4 && ob.status == 200) {
+            document.getElementById("ab").innerHTML = ob.responseText;
+          }
+        };
+      }
+    </script>
+  </head>
+
+  <body><div>
+    <center>
+      <h3>Press Print To Display The Contents Of Lawyer.dat file ~</h3>
+      <br /><input type="button" value="Print" onclick="print()" />
+      <span id="ab"></span>
+    </center></div>
+  </body>
+</html>

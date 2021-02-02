@@ -1,0 +1,7 @@
+<Cricket_Team>
+  <Country name="India">
+    <Player_Name>Kartik Tyagi</Player_Name>
+    <Wickets> 10 </Wickets>
+    <Runs>50 </Runs>
+  </Country>
+</Cricket_Team>
