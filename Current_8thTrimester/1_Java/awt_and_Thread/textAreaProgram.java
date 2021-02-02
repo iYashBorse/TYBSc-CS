@@ -19,7 +19,7 @@ public class textAreaProgram extends Frame implements ActionListener{
     ta = new TextArea(5,30);
 
     setBackground(Color.black);
-	l1.setForeground(Color.white);
+	  l1.setForeground(Color.white);
     addWindowListener(new win());
     b1.addActionListener(this);
     b2.addActionListener(this);
