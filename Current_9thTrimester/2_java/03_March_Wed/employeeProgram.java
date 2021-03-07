@@ -7,7 +7,7 @@ class  employeeProgram{
 	public static void main(String[]  ninjaHattori){
 
 		try{
-
+			//Loading the driver using forName() method
 			Class.forName("com.mysql.jdbc.Driver"); // step 2 : Load and Register the Driver  , driver can be different for different db's 
 													// using forName method , register the driver.
 			// step 3 : Establish the connection 
@@ -18,6 +18,7 @@ class  employeeProgram{
 			// getConnection method is a static method in class DriverManager.
 			// The following URL written below  works for me. It might be different at your side.
 			// Am using XAMPP ( myphpadmin ) to create db's.
+			//Registering the Driver using DriverManager
 			Connection con = DriverManager.getConnection("jdbc:mysql://192.168.64.3/shaun", "shaun",     "root");
 			//											    	       "URL"	     db		UserName	Password			
 			// step 4 : Create the statement 
