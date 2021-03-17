@@ -12,7 +12,7 @@
       <%@ page import="java.sql.*" %>
    
         <%
-            String fetchedSalary;
+            int fetchedSalary;
             int sum = 0;
 
           
