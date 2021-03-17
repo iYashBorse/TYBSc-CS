@@ -25,9 +25,8 @@
 
 
                   while(rs.next()){
-                      fetchedSalary = rs.getString(1);
-                      int a = Integer.parseInt(fetchedSalary);
-                      sum = sum + a;
+                      fetchedSalary = rs.getInt(1);
+                      sum = sum + fetchedSalary;
                   }
 
                     out.println("Salary ::"+sum);

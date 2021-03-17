@@ -1,0 +1,199 @@
+/* 
+      External CSS used.
+*/
+
+body{
+	background-color: white;
+	font-family: American Typewriter;
+}
+
+h1 {
+	color: black;
+	text-align: center;
+	font-family: serif;
+}
+
+
+h6 {
+	color: black;
+	text-align: center;
+}
+
+input[type=submit] { 
+  width: 100%;
+  background-color: #7B68EE;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #483D8B;
+}
+
+div {
+	width: 30%;
+    margin: 0 auto;
+
+        
+	  border-radius: 5px;
+	  background-color: gainsboro;
+	  padding: 20px;
+}
+
+.php{	color:black;
+		background-color: silver;
+}
+
+.numberTextField{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border-radius: 4px;
+  box-sizing: border-box;
+  border: 2px solid lightblue;
+
+}
+
+
+.textField{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border-radius: 4px;
+  box-sizing: border-box;
+  border: 2px solid lightblue;
+
+}
+
+button {
+  background-color: #7B68EE	;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+   opacity:1;
+
+
+}
+
+.button2 {
+	background-color: #DC143C	;
+}
+
+
+
+
+
+textarea{
+	resize: none;
+	height: 80px;
+    width: 350px;
+}
+
+
+.divClass {
+	width: 70%;
+	height: 70%;
+    margin: 0 auto;
+
+      
+	  border-radius: 5px;
+	  background-color: white;
+	  padding: 20px;
+}
+.numberTextField2{
+  width: 19.5%;
+  padding: 8px 15px;
+  margin: 8px 0;
+  display: inline-block;
+  border-radius: 5px;
+  box-sizing: border-box;
+  border: 2px solid lightblue;
+
+}
+
+
+.numberTextField3{
+  width: 19.5%;
+  height: 6%;
+  padding: 9px 15px;
+  margin: 8px 0;
+  display: inline-block;
+  border-radius: 5px;
+  box-sizing: border-box;
+  border: 2px solid lightblue;
+
+}
+
+
+#submit1 { 
+  width: 30%;
+  background-color: #7B68EE;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+
+
+#submit1:hover {
+  background-color: #483D8B;
+}
+
+
+
+
+
+/*    For  Table Styling    */ 
+
+
+
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  border: 1px solid #ddd;
+}
+
+th, td {
+  text-align: left;
+  padding: 16px;
+}
+
+tr:nth-child(even) {
+  background-color: #A9CCE3;
+}
+
+#tr1:nth-child(even) {
+  background-color: #D1F2EB;
+}
+
+#tr2:nth-child(even) {
+  background-color: #D4E6F1;
+}
+
+#tr3:nth-child(even) {
+  background-color: #E8DAEF;
+}
+
+
+
+
+
+
+
+
+
+
