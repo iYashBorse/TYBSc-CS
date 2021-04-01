@@ -1,0 +1,71 @@
+#copy paste the individual programs from here 
+1 : to print addition of multiplication using hardcoded values 
+2 : same using user Input 
+3 : factorial of a number 
+
+If you are using Cygwin then. Line spaces may cause you errors 
+So ensure no line spaces are there try to copy paste  these codes using vim as text editor
+
+Vim anyFileName.sh
+
+Press 'i' to insert and copy paste
+
+Press. Esc  then  shift + semicolon and then 'wq' to save and quite from vim
+
+ 
+Bash fileName.sh
+
+If you have any linux distribution ubuntu , openSUSE , run  the program in them  
+(Won't face encoding errors like in Cygwin ) .  
+
+PS : shell scripting is bit not so strict language 
+     but some extra spaces may halt your day.
+
+
+1: 
+
+
+echo Using hardcoded values 
+number1=1
+number2=2 
+number3=3
+addition=$(($number1+$number2+$number3))
+echo $addition
+multiplication=$(($number1*$number2*$number3))
+echo $multiplication
+
+
+
+2: 
+
+
+echo Enter the first number
+read a
+echo Enter the second number
+read b
+echo Enter the third number
+read c
+echo Enter the fourth number
+read d
+echo Enter the fifth number
+read e
+sum=$(($a+$b+$c+$d+$e))
+sub=$(($a-$b))
+mul=$(($a*$b*$c))
+echo The addition of $a $b $c $d $e :: $sum
+echo The Substraction is :: $sub
+echo The Multiplication of $a  $b  $c is  :: $mul
+
+
+
+3:
+
+echo Factorial of a number 
+echo "Enter a number to find factorial"
+read number
+factorial=1
+for((i=2;i<=number;i++))
+{
+  factorial=$((factorial * i))
+}
+echo $factorial
