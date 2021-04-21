@@ -1,0 +1,56 @@
+For windows : 
+
+First and foremost after any error you fix
+try to restart the tomcat and again compile the program and run it.
+
+Tomcat has some buffer / cache issues . ( forgive him ).
+
+To run This program you have to  place all the three files in different
+directories 
+
+1 : the jsp file in ROOT directory where ever you want 
+
+2 : .tld File in WEB-INF  folder  ( not in classes or pack ) directly in 
+    WEB-INF folder itself.
+
+3 : The java file  in ROOT->WEB-INF->classes->pack->javaFile
+    if you don't have WEB-INF directory then create all these directories  
+    and then place the java file.
+
+! don't forgot to compile the java file .
+
+One more thing once you set the class path 
+
+which is : 
+
+set PATH=C:\Program Files\Java\jdk1.7.0_09\bin
+
+place the above line directly in command prompt and run
+( don't forgot to re-check the jdk version , which will be inside java directory in your program files and change accordingly in the class path )
+
+now after setting the class path successfully  there's one more thing to do 
+that is : 
+
+jsp-api.jar 
+which will be available in lib folder before ROOT directory .
+You can either copy the address of file and use or directly copy that file in pack directory , where your java file exists.
+
+once done  , to compile the program 
+
+javac -cp ".;jsp-api.jar" javaFile.java
+
+! if there is no jsp-api.jar file in your lib directory you can download it from the internet it's easy.
+
+once compiled successfully .
+
+now start the tomcat , run the jsp file which is in ROOT directory.
+
+
+
+
+
+For Linux or Unix based operating the system it's almost same ::
+
+The only difference is you don't have to mention  or set the class path  . And else the  compiling and other things are same. ( I suppose ) .
+
+
