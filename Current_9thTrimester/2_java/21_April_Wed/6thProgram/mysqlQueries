@@ -1,0 +1,31 @@
+Mysql Query :: 
+
+
+mysql> create database login;
+Query OK, 1 row affected (0.00 sec)
+
+
+
+mysql> use login;
+Database changed
+mysql> create table user(username varchar(20) , password varchar(20));
+Query OK, 0 rows affected (0.08 sec)
+
+
+
+mysql> insert into user(username , password) values("abc","123"),("efg","567");
+Query OK, 2 rows affected (0.04 sec)
+Records: 2  Duplicates: 0  Warnings: 0
+
+
+
+
+mysql> select * from user;
++----------+----------+
+| username | password |
++----------+----------+
+| abc      | 123      |
+| efg      | 567      |
++----------+----------+
+2 rows in set (0.01 sec)
+
