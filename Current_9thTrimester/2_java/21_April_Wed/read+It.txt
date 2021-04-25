@@ -47,7 +47,7 @@ now start the tomcat , run the jsp file which is in ROOT directory.
 
 
 
-
+ 
 
 For Linux or Unix based operating the system it's almost same ::
 
