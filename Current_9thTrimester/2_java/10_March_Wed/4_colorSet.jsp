@@ -1,13 +1,15 @@
 
 <html>
    <head> 
+    <link rel="stylesheet" type="text/css" href="external.css">
        <title>Home Page</title>
+
    </head>
        <% String color=request.getParameter("color");
           String name=request.getParameter("userName");  
         %>
    
-    <body bgcolor= "<%= color %>">
+    <body style="background-color:<%= color %>;"><div>
         <center>
           <hr>
                  
@@ -17,6 +19,6 @@
           <hr>
                 <br><br>
                 <a href="fourthProgram.jsp">Set different color</a>
-        </center>
+        </center></div>
     </body>
 </html>
