@@ -1,3 +1,7 @@
+/*
+    Write a jsp program to check a number if prime or not  ( and take input from a html page ) 
+*/
+
 <html>
 <head><link rel="stylesheet" type="text/css" href="external.css">
 	<title>

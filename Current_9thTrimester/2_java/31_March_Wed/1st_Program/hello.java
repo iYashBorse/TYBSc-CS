@@ -1,3 +1,9 @@
+/* 
+
+Demonstrate use of custom Tag , print  ( "" hello Custom tag "")
+
+*/
+
 package pack;
 import javax.servlet.jsp.tagext.*;
 import javax.servlet.jsp.*;

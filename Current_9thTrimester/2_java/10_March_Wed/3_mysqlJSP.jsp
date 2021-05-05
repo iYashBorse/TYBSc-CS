@@ -15,6 +15,11 @@ while creating connection object  and database name , table name et cetera .
 
          Special thanks to : Deepak  Pawade ( BSc Div B ) for the program help and tips.
 
+
+
+    Write a JSP program to accept name  and password from html page  and check it in mysql database and return appropriate .
+
+
         
 -->
 

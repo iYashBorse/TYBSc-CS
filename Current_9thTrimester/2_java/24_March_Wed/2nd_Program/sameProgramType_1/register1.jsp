@@ -1,6 +1,11 @@
 
 <%--
   In this Program the connection to db and all is done in the java bean file itself.
+
+
+
+  Jsp UseBean program , accept username and password  from html , insert  it  into mysql database .
+
 --%>
 <html>
 	<head>
