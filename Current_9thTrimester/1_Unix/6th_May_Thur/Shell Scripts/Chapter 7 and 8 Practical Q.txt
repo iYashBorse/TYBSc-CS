@@ -1,0 +1,36 @@
+1) Display lines containing any digit in the range 1-9, redirect output to 
+output.txt (use grep command)
+2) Display  line don not containing “hello” pattern in it ,redirect output 
+to output.txt(output should be appended to current content of file txt (use 
+grep command)
+3) Display lines of file which can contain at least one occurrence of 
+pattern “hello”  in abc.txt and xyz.txt, redirect output to output.txt txt 
+(use grep command)
+4) Display date date in mm/dd/yy format redirect output to output.txt
+5) Display hours, minute and seconds for current time (use date command)
+6) Display current month name
+7) Display content of output.txt (use input redirection)
+
+----------------------------------------------------------------------------
+
+1) Write a function to accept character and return 1 if it vowel and 0 
+otherwise .Use this function in main to accept a character and display it 
+Is vowel or not (use switch case in function to check for vowel)
+2) Write a function isEven, which accepts an integer as parameter and returns
+1 if the number iseven, and 0 otherwise. Use this function in main to accept n 
+numbers and check if they are even or odd.
+3) Write a function isPrime, which accepts an integer as parameter and returns
+ 1 if the number is prime and 0 otherwise. Use this function in main to 
+display the prime numbers between 1 to 50.
+4) Write a function to accept an integer and return sum of digits of the 
+given number
+5) Write a function to accept two integers x and y and calculate the sum of 
+all integers between x and y (both inclusive)
+6) Write a function to accept n display following pattern.
+1
+
+1 2
+
+1 2 3
+
+1 2 3 4
