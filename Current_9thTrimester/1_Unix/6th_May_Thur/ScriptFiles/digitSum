@@ -1,0 +1,20 @@
+#!/bin/bash
+digitSum() {
+
+sum=0
+#echo -n "Enter a number "
+ num=$1
+while [ $num -gt 0 ]
+do
+    mod=$((num % 10))    #It will split each digits
+    sum=$((sum + mod))   #Add each digit to sum
+    num=$((num / 10))    #divide num by 10.
+done
+
+return $sum
+}
+
+digitSum $1 
+
+result=$?
+echo -e "\nThe sum of digits is :: $result \n"

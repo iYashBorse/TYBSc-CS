@@ -1,0 +1,26 @@
+#!/bin/bash
+even(){
+
+number=$1
+
+if [ $((number%2)) -eq 0 ]
+then
+return 1
+else
+return 0
+fi 
+
+}
+
+even  $1     # calling the function and passing the
+             # argument as command line argument
+             # so run as :: bash evenCheck anyNumberYouWantToCheck
+
+RESULT=$?    #collecting the returned value from function
+
+if [ $RESULT -eq 1 ]
+then
+    echo "even"
+else
+    echo "odd"
+fi

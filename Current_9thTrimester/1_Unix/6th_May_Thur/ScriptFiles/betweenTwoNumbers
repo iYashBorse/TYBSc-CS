@@ -1,0 +1,18 @@
+#!/bin/bash
+
+betweenTwoNumbers(){
+echo -en "\nEnter x value "
+read x
+echo -n "Enter y value "
+read y
+
+n=0
+for (( i = $x; i <= $y; i++));
+ do
+    (( n += i ))
+done
+return  $n
+}
+betweenTwoNumbers
+result=$?
+echo -e "The sum is :: $result\n"
