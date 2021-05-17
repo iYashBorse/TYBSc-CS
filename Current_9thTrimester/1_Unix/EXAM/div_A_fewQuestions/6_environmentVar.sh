@@ -1,0 +1,11 @@
+#!bin/bash
+user="$USER"
+shell="$SHELL"
+pwd="$PWD"
+hostname="$HOSTNAME"
+echo "Curren User =>  $user"
+echo "User Id => $UID"
+echo "Shell in use  => $shell"
+echo "Current Directory => $pwd"
+echo "Host Is => $hostname"
+echo "Home Is => $HOME"
