@@ -11,7 +11,7 @@ case $CHOICE in
 								1)cal -y;;
 								2)cal -3;;
 								3)date "+%I  %H";;
-								4)cal;; 
+								4)date "+%d";; 
 								5)date "+%Y %m %d";;
 								6)echo Adios;;
 								*)echo Invalid Choise ;;
