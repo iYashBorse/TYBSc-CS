@@ -1,0 +1,30 @@
+#!/bin/bash
+#Enter two numbers while executing the script 
+#eg ;:  bash primeCheck.sh 4 30
+prime() {
+    current_number=$1
+    flag=0
+    i=2
+
+    while test $i -le `expr $current_number / 2`
+    do
+        if test `expr $current_number % $i` -eq 0
+        then
+            flag=1
+        fi
+        i=`expr $i + 1`
+    done
+
+    if test $flag -eq 0
+        then echo $current_number
+    fi
+}
+
+
+x=$1
+y=$2
+
+for (( number=$x; number<=$y; number++ ))
+do
+    prime $number
+done
