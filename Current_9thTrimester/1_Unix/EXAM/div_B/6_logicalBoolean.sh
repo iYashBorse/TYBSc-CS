@@ -7,24 +7,24 @@ read n1
 echo -n "Enter number 1 or 0 :: "
 read n2
 
-if(($n1 == 1 & $n2 ==  1))
+if [  $n1 -eq 1  -a  $n2 -eq 1 ]
 then
 								echo "both 1"
 else
-								echo "not same"
+								echo "not 1"
 fi
 
-if(($n1 == 1 || $n2 == 1 ))
+if [ $n1 -eq 1  -o $n2 -eq 1 ]
 then
 echo "atleast one is 1"
 else
-								echo "both different"
+								echo "none is 1"
 fi
 
 
-if (($n1 != $n2 ))
+if [[ !$n1 -eq 1 ]]
 then
-    echo "different"
+    echo "1"
 else
-     echo "same"
+     echo " 0"
 fi
